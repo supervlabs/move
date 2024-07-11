@@ -1,0 +1,14 @@
+[package]
+name = 'Supervlabs'
+version = '1.0.0'
+
+[addresses]
+apto_orm = "0xfacedd48d64a2ee04cbdf5c17608bd7a5ea9144fa1fe65320c588fffea131de3"
+supervlabs = "0x514b37716b76c441c3903f27b1bef1278609b7cf1a3b230e39360bbca123a054"
+package_creator = "0xdd101b17ca5c0ceb28dc0822593fac59ce764689f1d839eaff8fa7abb33ffddf"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token", rev = "main" }
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects", rev = "main" }
+AptoORM = { git = "https://github.com/supervlabs/apto_orm", subdir = "move/apto_orm", rev = "main" }
